@@ -13,7 +13,7 @@ The structure and methods provided here are a consolidation of best practices an
 3. An HTML presentation (for conferences)
 4. A memo for replying to revisions and resubmissions (R&Rs)
 
-## What You Need to Use This Template
+## What You Need to Use This
 
 To use this template effectively, you should have:
 
