@@ -8,9 +8,10 @@ The structure and methods provided here are a consolidation of best practices an
 
 ## Templates
 
-1. A PDF article (Nature formatting)
-2. An HTML presentation (for conferences)
-3. A memo for replying to revisions and resubmissions (R&Rs)
+1. A PDF article [Based on the template by Christopher Kenny](https://github.com/christopherkenny/nature)
+2. A PDF abstracts [Based on the template by Fabrizio Gilardi](https://fabriziogilardi.org/resources/papers/good-abstracts.pdf)
+3. An HTML presentation (for conferences)
+4. A memo for replying to revisions and resubmissions (R&Rs)
 
 ## What You Need to Use This Template
 
