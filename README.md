@@ -71,17 +71,24 @@ This folder contains the template by Christopher Kenny for writing an academic a
     - /appendix.qmd
   - /extensions (Stores TeX files for formatting)
 
+The output will then look like this:
+![](_figures/paper.png)
+
 ### Abstract
 
 - /abstract
   - /abstract.qmd (This is the core file. Rendering this produces the PDF)
   - /extensions (Stores TeX files for formatting)
+  
+The output will then look like this:  
+![](_figures/abstract.png)
 
 ### Presentation
 
 - /presentation
   -/presentation.qmd (Core File. Rendering this produces the HTML Slides)
 
+The output will then look like this:
 ![](_figures/presentation.png)
 
 
