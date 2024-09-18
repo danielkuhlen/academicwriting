@@ -1,0 +1,144 @@
+---
+title: "Quarto Paper Template"
+# based on christopher kennys template: https://github.com/christopherkenny/nature
+format:
+  nature-pdf:
+    journal:
+    keep-tex: false
+    number-sections: true
+    equal-margins: true
+    include-in-header:
+      text: |
+        \usepackage{lipsum}
+        \usepackage{setspace}
+        \setstretch{1.5}
+        \usepackage{etoolbox}
+        \patchcmd{\maketitle}{\thispagestyle{plain}}{\thispagestyle{empty}}{}{}
+        \AtBeginDocument{
+          \addtocounter{page}{-3} % Adjust the counter as needed
+        }
+author:
+  - name: Author One
+    affiliations:
+      - name: University
+        id: 1
+        department: Department
+        address: Street 1
+        city: City
+        postal-code: 10000
+    email: mailadress@mail.com
+    attributes:
+      corresponding: true
+  - name: Author Two
+    affiliations:
+      - name: University
+        id: 1
+        department: Department
+        address: Street 1
+        city: City
+        postal-code: 10000
+    email: mailadress@mail.com
+    attributes:
+      corresponding: true
+      equal-contributor: true
+abstract: |
+  Everyone agrees that this issue is really important. But we do not know much about this specific question, although it matters a great deal, for these reasons. We approach the problem from this perspective. Our research design focuses on these cases and relies on these data, which we analyze using this method. Results show what we have learned about the question. They have these broader implications. (Abstract Template from Fabrizio Gilardi)
+keywords: [Keywords, Keywords, Keywords, Keywords, Keywords]
+bibliography: ../_bibliography/bib.bib
+csl: _extensions/christopherkenny/nature/csl/american-political-science-association.csl
+---
+
+```{r base_setup}
+#| include: false
+# Commands that are useful for extracting code and replicating results:
+# knitr::purl("paper_template.qmd")
+# knitr::spin("paper_template.R")
+
+# A tool to help with citations
+# devtools::install_github("crsh/citr")
+
+# packages ---
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(
+  tidyverse,
+  rio, # import export files
+  extrafont # fonts for plots
+  )
+
+# data ---
+
+
+# fonts --- 
+extrafont::loadfonts(quiet = TRUE)
+```
+
+\newpage
+
+<!-- TABLE OF CONTENTS -->
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+
+<!-- TABLE OF FIGURES AND TABLES -->
+\listoffigures
+\listoftables
+\thispagestyle{empty}
+\newpage
+
+# Introduction {#sec-intro}
+
+```{r child="_sections/introduction.qmd"}
+```
+
+\newpage
+
+# Theory {#sec-theory}
+
+```{r child="_sections/theory.qmd"}
+```
+
+\newpage
+
+# Case Study
+
+```{r child="_sections/casestudy.qmd"}
+```
+
+\newpage
+
+# Data and Measurement {#sec-data}
+
+```{r child="_sections/methods.qmd"}
+```
+
+\newpage
+
+# Results {#sec-results}
+
+```{r child="_sections/results.qmd"}
+```
+
+\newpage
+
+# Conclusion {#sec-conclusion}
+
+```{r child="_sections/conclusion.qmd"}
+```
+
+\newpage
+
+# References
+<!-- the pattern below controls the placement of the references -->
+:::{#refs}
+:::
+
+\newpage
+
+\appendix
+
+# Appendix {-}
+
+```{r child="_sections/appendix.qmd"}
+```
+
+

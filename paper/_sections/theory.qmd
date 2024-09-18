@@ -1,0 +1,13 @@
+With the following chunk I include @fig-example.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Example Figure"
+#| label: fig-example
+
+# plot figure in the pdf
+knitr::include_graphics("../_figures/example_figure.png")
+```
+
