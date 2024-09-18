@@ -82,6 +82,9 @@ This folder contains the template by Christopher Kenny for writing an academic a
 - /presentation
   -/presentation.qmd (Core File. Rendering this produces the HTML Slides)
 
+![](_figures/presentation.png)
+
+
   
 
 
