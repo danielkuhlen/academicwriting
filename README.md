@@ -71,4 +71,18 @@ This folder contains the template by Christopher Kenny for writing an academic a
     - /appendix.qmd
   - /extensions (Stores TeX files for formatting)
 
+### Abstract
+
+- /abstract
+  - /abstract.qmd (This is the core file. Rendering this produces the PDF)
+  - /extensions (Stores TeX files for formatting)
+
+### Presentation
+
+- /presentation
+  -/presentation.qmd (Core File. Rendering this produces the HTML Slides)
+
+  
+
+
   

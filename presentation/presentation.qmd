@@ -1,0 +1,30 @@
+---
+title: "Research Idea"
+subtitle: "*Subtitle*"
+institute: "*More Info*"
+author:
+  - name: Author 1
+    email: mailadress@mail.com
+format: revealjs
+editor: visual
+self-contained: true
+scrollable: true
+bibliography: ../_bibliography/bib.bib
+---
+
+## Slide 1
+
+* Bullet Point
+  - more points
+
+## Slide 2
+
+* Example Figure
+
+![](../_figures/example_figure.png){fig-align="center"}
+
+## Slide 3
+
+- citation like this ^~[@krishnarajan2023]~^
+
+## Literature

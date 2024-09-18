@@ -42,7 +42,7 @@ author:
       corresponding: true
       equal-contributor: true
 abstract: |
-  Everyone agrees that this issue is really important. But we do not know much about this specific question, although it matters a great deal, for these reasons. We approach the problem from this perspective. Our research design focuses on these cases and relies on these data, which we analyze using this method. Results show what we have learned about the question. They have these broader implications. (Abstract Template from Fabrizio Gilardi)
+  Everyone agrees that this issue is really important. But we do not know much about this specific question, although it matters a great deal, for these reasons. We approach the problem from this perspective. Our research design focuses on these cases and relies on these data, which we analyze using this method. Results show what we have learned about the question. They have these broader implications.
 keywords: [Keywords, Keywords, Keywords, Keywords, Keywords]
 bibliography: ../_bibliography/bib.bib
 csl: _extensions/christopherkenny/nature/csl/american-political-science-association.csl
@@ -71,6 +71,10 @@ pacman::p_load(
 # fonts --- 
 extrafont::loadfonts(quiet = TRUE)
 ```
+
+Abstract Template from [Fabrizio Gilardi](https://fabriziogilardi.org/resources/papers/good-abstracts.pdf)
+
+Quarto Template based on the Nature Template by [Christopher Kenny](https://github.com/christopherkenny/nature)
 
 \newpage
 
@@ -140,5 +144,3 @@ extrafont::loadfonts(quiet = TRUE)
 
 ```{r child="_sections/appendix.qmd"}
 ```
-
-

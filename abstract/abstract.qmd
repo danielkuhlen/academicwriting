@@ -1,0 +1,54 @@
+---
+title: "Quarto Abstract Template"
+# based on christopher kennys template: https://github.com/christopherkenny/nature
+format:
+  nature-pdf:
+    journal:
+    keep-tex: false
+    number-sections: true
+    equal-margins: true
+    include-in-header:
+      text: |
+        \usepackage{lipsum}
+        \usepackage{setspace}
+        \setstretch{1.5}
+        \usepackage{etoolbox}
+        \patchcmd{\maketitle}{\thispagestyle{plain}}{\thispagestyle{empty}}{}{}
+        \AtBeginDocument{
+          \addtocounter{page}{-3} % Adjust the counter as needed
+        }
+author:
+  - name: Author One
+    affiliations:
+      - name: University
+        id: 1
+        department: Department
+        address: Street 1
+        city: City
+        postal-code: 10000
+    email: mailadress@mail.com
+    attributes:
+      corresponding: true
+  - name: Author Two
+    affiliations:
+      - name: University
+        id: 1
+        department: Department
+        address: Street 1
+        city: City
+        postal-code: 10000
+    email: mailadress@mail.com
+    attributes:
+      corresponding: true
+      equal-contributor: true
+bibliography: ../_bibliography/bib.bib
+csl: _extensions/christopherkenny/nature/csl/american-political-science-association.csl
+---
+
+Abstract Template from [Fabrizio Gilardi](https://fabriziogilardi.org/resources/papers/good-abstracts.pdf)
+
+Quarto Template based on the Nature Template by [Christopher Kenny](https://github.com/christopherkenny/nature)
+
+Everyone agrees that this issue is really important. But we do not know much about this specific question, although it matters a great deal, for these reasons. We approach the problem from this perspective. Our research design focuses on these cases and relies on these data, which we analyze using this method. Results show what we have learned about the question. They have these broader implications.
+
+
