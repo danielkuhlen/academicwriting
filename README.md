@@ -10,9 +10,9 @@ The structure and methods provided here are a consolidation of best practices an
 
 ## Templates
 
-1. A PDF article [based on the template by Christopher Kenny](https://github.com/christopherkenny/nature)
+1. A PDF article based on the template by [Christopher Kenny](https://github.com/christopherkenny/nature)
    - The Guide on writing in this is from [Macartan Humphreys](https://macartan.github.io/teaching/how-to-write)
-3. A PDF abstract [based on the template by Fabrizio Gilardi](https://fabriziogilardi.org/resources/papers/good-abstracts.pdf)
+3. A PDF abstract based on the template by [Fabrizio Gilardi](https://fabriziogilardi.org/resources/papers/good-abstracts.pdf)
 4. An HTML presentation (for conferences)
 5. A memo for replying to revisions and resubmissions (R&Rs)
 
