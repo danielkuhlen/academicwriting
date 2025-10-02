@@ -14,17 +14,17 @@ bibliography: ../_bibliography/bib.bib
 
 ## Slide 1
 
-* Bullet Point
-  - more points
+-   Bullet Point
+    -   more points
 
 ## Slide 2
 
-* Example Figure
+-   Example Figure
 
 ![](../_figures/example_figure.png){fig-align="center"}
 
 ## Slide 3
 
-- citation like this ^~[@krishnarajan2023]~^
+-   citation like this ^~[@krishnarajan2023]~^
 
 ## Literature
