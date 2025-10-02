@@ -6,7 +6,7 @@ The basic idea of `academicwriting` is to provide a comprehensive framework for 
 
 In practice, all project outputs—such as the paper manuscripts, conference presentations, R&R memos—rely on the same data and bibliography files. The templates also include writing guides and best-practice examples to support both the technical and substantive aspects of writing. :dizzy:
 
-The template builds on work from other researchers. The paper and abstract templates are adapted from [Christopher Kenny’s](https://christophertkenny.com) template, available [here](https://github.com/christopherkenny/nature).
+The template synthesizes work from other researchers. The paper and abstract quarto templates are adapted from [Christopher Kenny’s](https://christophertkenny.com) template, available [here](https://github.com/christopherkenny/nature). The abstract features a wording template by [Fabrizio Gilardi](https://fabriziogilardi.org), available [here](https://fabriziogilardi.org/resources/papers/good-abstracts.pdf).
 
 ## What You Need to Use This
 
