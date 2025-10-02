@@ -1,12 +1,12 @@
 # Academic Writing with Quarto :page_with_curl:
 
-This template aims to provide researchers with a project structure that allows for an integrated, reproducible, and transparent writing process. It provides Quarto templates for academic articles, abstracts, pre-analysis plans, conference presentations, and R&R memos. It helps by keeping all files in a clean, organized file structure. If you have ever struggled with streamlining your projects, this might help you as well!
+This template provides researchers with a project structure that supports an integrated, reproducible, and transparent writing process. `academicwriting` consolidates Quarto templates for academic articles, abstracts, pre-analysis plans, conference presentations, and R&R memos, keeping all files in a clean, organized structure. If you’ve ever struggled to streamline your projects, this may help.
 
-The goal is to provide a comprehensive framework for writing a quantitative article, consolidating all necessary components into a single project. By organizing all writing and analysis in one place, this framework ensures that every part of the project references the same data, allowing for streamlined analysis and a more efficient writing process. In practical terms, this means that all work within a project—such as the paper manuscript, conference presentations, R&R memos, and pre-registrations—relies on the same data and bibliography files. This allows you to easily adapt your work across all outputs, resulting in an integrated, transparent research process.
+The basic idea of `academicwriting` is to provide a comprehensive framework for writing research article, consolidating all necessary components into a single project. By organizing all data wrangling, analysis, and writing in one place, this framework ensures that (1) every part of the research project references the same data—allowing for streamlined analysis and a more efficient writing process—and (2) co-authors and readers can clearly understand the processes behind the project.
 
-Aside from the technical framework, the templates also include guides on writing and best-practice examples for the specific output products. This should help you with both the technical and substantive parts of writing! :dizzy:
+In practice, all project outputs—such as the paper manuscripts, conference presentations, R&R memos—rely on the same data and bibliography files. The templates also include writing guides and best-practice examples to support both the technical and substantive aspects of writing. :dizzy:
 
-The template synthesizes work and templates from other researchers. Credit for this goes to these authors, cited in the respective files.
+The template builds on work from other researchers. The paper and abstract templates are adapted from [Christopher Kenny’s](https://christophertkenny.com) template, available [here](https://github.com/christopherkenny/nature).
 
 ## What You Need to Use This
 
