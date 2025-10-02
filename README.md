@@ -1,4 +1,4 @@
-# Academic Writing with Quarto :page_with_curl:
+# ![](_figures/academicwriting_hex.png){width="80"} Academic Writing with Quarto
 
 This template provides researchers with a project structure that supports an integrated, reproducible, and transparent writing process. `academicwriting` consolidates Quarto templates for academic articles, abstracts, pre-analysis plans, conference presentations, and R&R memos, keeping all files in a clean, organized structure. If you’ve ever struggled to streamline your projects, this may help.
 
