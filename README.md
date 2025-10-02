@@ -26,6 +26,8 @@ To use this template effectively, you should have:
 
 ## The Structure
 
+![](_figures/template_structure.png)
+
 ### Data
 
 This folder stores all relevant data. The `input` folder contains all raw files, while the `output` folder is for files that have already been processed or analyzed.
