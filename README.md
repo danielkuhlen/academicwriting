@@ -1,6 +1,6 @@
 # Academic Writing with Quarto :page_with_curl:
 
-As a Social Science student, I often felt overwhelmed when organizing my class projects. This template aims to help with the process by keeping all files in a clean, organized file structure. If you have ever struggled with streamlining your projects, this might help you as well!
+This template aims to help with the process by keeping all files in a clean, organized file structure. If you have ever struggled with streamlining your projects, this might help you as well!
 
 The goal is to provide a comprehensive framework for writing a quantitative article, consolidating all necessary components into a single folder. By organizing all writing and analysis in one place, this framework ensures that every part of the manuscript references the same data, allowing for streamlined analysis and a more efficient writing process.
 
