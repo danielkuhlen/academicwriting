@@ -8,19 +8,10 @@ Aside from the technical framework, the templates also include guides on writing
 
 The template synthesizes work and templates from other researchers. Credit for this goes to these authors, cited in the respective files.
 
-## Templates
-
-1.  A PDF article based on the template by [Christopher Kenny](https://github.com/christopherkenny/nature)
-    -   The Guide on writing in this is from [Macartan Humphreys](https://macartan.github.io/teaching/how-to-write)
-2.  A PDF abstract based on the template by [Fabrizio Gilardi](https://fabriziogilardi.org/resources/papers/good-abstracts.pdf)
-3.  An HTML presentation (for conferences)
-4.  A memo for replying to revisions and resubmissions (R&Rs)
-
 ## What You Need to Use This
 
-To use this template effectively, you should have:
+To use this template, you should have:
 
--   Basic coding skills in R and Markdown
 -   [TinyTeX](https://yihui.org/tinytex/) installed
 -   [Quarto](https://quarto.org/docs/get-started/) installed
 
