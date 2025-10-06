@@ -24,6 +24,14 @@ if (!requireNamespace("tinytex", quietly = TRUE)) {
 
 -   [RStudio](https://posit.co/download/rstudio-desktop/) and [Quarto](https://quarto.org/docs/get-started/) installed
 
+## How To Download the Template?
+
+To download the template simply use this line of code in your the RStudio terminal. This automatically clones the directory.
+
+``` Terminal
+quarto use template danielkuhlen/academicwriting
+```
+
 ## The Structure
 
 The basic idea of `academicwriting` is that all parts of the writing process reference the same data, figures, and literature. Reference files are stored in the folders `_bibliography`, `_data`, and `_figures`. Templates for specific outputs within a research project (e.g., a pre-analysis plan) are stored in separate folders. See [Figure 1](#figure-1) for an organizational chart of the repository.
