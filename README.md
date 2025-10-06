@@ -83,3 +83,11 @@ The output will then look like this: ![](_figures/_readme_figures/abstract_examp
 -   /presentation -/presentation.qmd (Core File. Rendering this produces the HTML Slides)
 
 The output will then look like this: ![](_figures/_readme_figures/presentation_example.png)
+
+### Pre-Analysis Plan
+
+-   /pap
+    -   /pap.qmd (This is the core file. Rendering this produces the PDF)
+    -   /extensions (Stores TeX files for formatting)
+
+The output will then look like this: ![](_figures/_readme_figures/pap_example.png)
