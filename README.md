@@ -54,7 +54,7 @@ This folder stores all figures you create.
 
 ### Paper
 
-This folder contains the template by Christopher Kenny for writing an academic article. The format is a slightly modified Nature style.
+This folder contains the Nature article [template](https://github.com/christopherkenny/nature) by [Christopher Kenny](https://christophertkenny.com). The template is slightly modified with a "parent" file, `paper.qmd`, that stores the YAML and all metadata. Rendering this produces the PDF. All sections are in the subdirectory `/sections` under individual QMD files to keep the writing process organized without one super long QMD file.
 
 -   /paper
     -   /paper.qmd (This is the core file. Rendering this produces the PDF.)
