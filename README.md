@@ -1,15 +1,14 @@
-<h1>
-  <img src="_figures/academicwriting_hex.png" alt="logo" width="60" style="vertical-align:middle; margin-right:10px;">
-  Academic Writing with Quarto
-</h1>
+<h1><img src="_figures/academicwriting_hex.png" alt="logo" width="60" style="vertical-align:middle; margin-right:10px;"/> Academic Writing with Quarto</h1>
 
 This template provides researchers with a project structure that supports an integrated, reproducible, and transparent writing process. `academicwriting` consolidates Quarto templates for academic articles, abstracts, pre-analysis plans, conference presentations, and R&R memos, keeping all files in a clean, organized structure. If you’ve ever struggled to streamline your projects, this may help.
 
-The basic idea of `academicwriting` is to provide a comprehensive framework for writing research article, consolidating all necessary components into a single project. By organizing all data wrangling, analysis, and writing in one place, this framework ensures that (1) every part of the research project references the same data—allowing for streamlined analysis and a more efficient writing process—and (2) co-authors and readers can clearly understand the processes behind the project.
+The basic idea of `academicwriting` is to provide a comprehensive framework for writing research articles, consolidating all necessary components into a single repository. By organizing all data wrangling, analysis, and writing in one place, this framework ensures that (1) every part of the research project references the same data and literature—allowing for streamlined analysis and a more efficient writing process—and (2) co-authors and readers can clearly understand the processes behind the project.
 
-In practice, all project outputs—such as the paper manuscripts, conference presentations, R&R memos—rely on the same data and bibliography files. The templates also include writing guides and best-practice examples to support both the technical and substantive aspects of writing. :dizzy:
+The templates also include writing guides and best-practice examples to support both the technical and substantive aspects of writing. :dizzy:
 
-The template synthesizes work from other researchers. The paper and abstract quarto templates are adapted from [Christopher Kenny’s](https://christophertkenny.com) template, available [here](https://github.com/christopherkenny/nature). The abstract features a wording template by [Fabrizio Gilardi](https://fabriziogilardi.org), available [here](https://fabriziogilardi.org/resources/papers/good-abstracts.pdf).
+The template synthesizes work from other researchers. The paper and abstract Quarto templates are adapted from [Christopher Kenny’s](https://christophertkenny.com) template, available [here](https://github.com/christopherkenny/nature). The abstract features a wording template by [Fabrizio Gilardi](https://fabriziogilardi.org), available [here](https://fabriziogilardi.org/resources/papers/good-abstracts.pdf). The pre-analysis template is from [OSF](https://osf.io), available [here](https://docs.google.com/document/d/1gkN0Jp6Gu7GIA4Ne4YCDZ61nCLQRgt32moRdUg9AnVg/edit?tab=t.0#heading=h.fwbi14d4b65g).
+
+In the sub-sections in this README are detailed instructions for all specific templates within the `academicwriting` framework.
 
 ## What You Need to Use This
 
