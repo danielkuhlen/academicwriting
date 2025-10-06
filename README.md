@@ -68,7 +68,7 @@ This folder contains the Nature article [template](https://github.com/christophe
         -   /appendix.qmd
     -   /extensions (Stores TeX files for formatting)
 
-The output will then look like this: ![](_figures/paper.png)
+The output will then look like this: ![](../../software/academicwriting_figures/paper_example.png)
 
 ### Abstract
 

@@ -1,5 +1,6 @@
 * How to add citation?
 
-Add some citation like this [@krishnarajan2023].
-Or like this @krishnarajan2023 argues...
+Add some citation like this [@einstein1905].
+
+Or like this: @einstein1905 argues...
 
