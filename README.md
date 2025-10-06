@@ -82,4 +82,4 @@ The output will then look like this: ![](_figures/_readme_figures/abstract_examp
 
 -   /presentation -/presentation.qmd (Core File. Rendering this produces the HTML Slides)
 
-The output will then look like this: ![](_figures/presentation.png)
+The output will then look like this: ![](_figures/_readme_figures/presentation_example.png)

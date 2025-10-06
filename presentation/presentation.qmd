@@ -25,6 +25,6 @@ bibliography: ../_bibliography/bib.bib
 
 ## Slide 3
 
--   citation like this ^~[@krishnarajan2023]~^
+-   citation like this ^~[@einstein1905]~^
 
 ## Literature
