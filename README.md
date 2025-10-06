@@ -15,7 +15,14 @@ In the sub-sections in this README are detailed instructions for all specific te
 To use this template, you should have:
 
 -   [TinyTeX](https://yihui.org/tinytex/) installed
--   [Quarto](https://quarto.org/docs/get-started/) installed
+
+``` R
+if (!requireNamespace("tinytex", quietly = TRUE)) {
+  install.packages("tinytex")
+}
+```
+
+-   [RStudio](https://posit.co/download/rstudio-desktop/) and [Quarto](https://quarto.org/docs/get-started/) installed
 
 ## The Structure
 
