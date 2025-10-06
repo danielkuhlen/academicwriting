@@ -19,7 +19,9 @@ To use this template, you should have:
 
 ## The Structure
 
-![](_figures/template_structure.png)
+The basic idea of `academicwriting` is that all parts of the writing process reference the same data, figures, and literature. Reference files are stored in the folders `_bibliography`, `_data`, and `_figures`. Templates for specific outputs within a research project (e.g., a pre-analysis plan) are stored in separate folders. See [Figure 1](#figure-1) for an organizational chart of the repository.
+
+![Figure 1: Folder structure of the `academicwriting` template.](_figures/template_structure.png)
 
 ### Data
 
