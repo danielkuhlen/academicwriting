@@ -1,4 +1,4 @@
-<h1><img src="_figures/academicwriting_hex.png" alt="logo" width="60" style="vertical-align:middle; margin-right:10px;"/> Academic Writing with Quarto</h1>
+<h1><img src="_figures/_readme_figures/academicwriting_hex.png" alt="logo" width="60" style="vertical-align:middle; margin-right:10px;"/> Academic Writing with Quarto</h1>
 
 This template provides researchers with a project structure that supports an integrated, reproducible, and transparent writing process with [Quarto](https://quarto.org). `academicwriting` consolidates Quarto templates for academic articles, abstracts, pre-analysis plans, conference presentations, and R&R memos, keeping all files in a clean, organized structure. If you’ve ever struggled to streamline your projects, this may help.
 
@@ -76,8 +76,7 @@ The output will then look like this: ![](_figures/_readme_figures/paper_example.
     -   /abstract.qmd (This is the core file. Rendering this produces the PDF)
     -   /extensions (Stores TeX files for formatting)
 
-The output will then look like this:\
-![](_figures/abstract.png)
+The output will then look like this: ![](_figures/_readme_figures/abstract_example.png)
 
 ### Presentation
 
