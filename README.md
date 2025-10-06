@@ -21,7 +21,7 @@ To use this template, you should have:
 
 The basic idea of `academicwriting` is that all parts of the writing process reference the same data, figures, and literature. Reference files are stored in the folders `_bibliography`, `_data`, and `_figures`. Templates for specific outputs within a research project (e.g., a pre-analysis plan) are stored in separate folders. See [Figure 1](#figure-1) for an organizational chart of the repository.
 
-![Figure 1: Folder structure of the `academicwriting` template.](_figures/template_structure.png)
+![Figure 1: Folder structure of the `academicwriting` template.](_figures/_readme_figures/template_structure.png)
 
 ### Data
 
@@ -68,7 +68,7 @@ This folder contains the Nature article [template](https://github.com/christophe
         -   /appendix.qmd
     -   /extensions (Stores TeX files for formatting)
 
-The output will then look like this: ![](../../software/academicwriting_figures/paper_example.png)
+The output will then look like this: ![](_figures/readme_figures/paper_example.png)
 
 ### Abstract
 
