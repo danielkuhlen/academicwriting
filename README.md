@@ -16,7 +16,7 @@ To use this template, you should have:
 
 -   [TinyTeX](https://yihui.org/tinytex/) installed
 
-``` R
+``` r
 if (!requireNamespace("tinytex", quietly = TRUE)) {
   install.packages("tinytex")
 }
@@ -24,11 +24,11 @@ if (!requireNamespace("tinytex", quietly = TRUE)) {
 
 -   [RStudio](https://posit.co/download/rstudio-desktop/) and [Quarto](https://quarto.org/docs/get-started/) installed
 
-## How To Download the Template?
+## How To Use the Template?
 
-To download the template simply use this line of code in your the RStudio terminal. This automatically clones the directory.
+To download the template, simply use this line of code in your RStudio terminal. This automatically clones the directory. When asked to name the project, you can provide a path to save it in a desired location. I recommend associating the directory with a new R project.
 
-``` Terminal
+``` terminal
 quarto use template danielkuhlen/academicwriting
 ```
 
