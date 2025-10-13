@@ -106,3 +106,12 @@ The output will then look like this: ![](_figures/_readme_figures/presentation_e
     -   /extensions (Stores TeX files for formatting)
 
 The output will then look like this: ![](_figures/_readme_figures/pap_example.png)
+
+# License
+
+This repository builds upon [Christopher Kenny’s](https://github.com/christopherkenny) Quarto template, which is licensed under the MIT License.
+
+Kenny’s template, in turn, modifies the Springer Nature journal article template package.  
+The original Nature template is licensed under the [LaTeX Project Public License 1.3c (LPPL 1.3c)](https://www.latex-project.org/lppl/lppl-1-3c/). All further modifications can be seen in this repository.
+
+This repository is intended for academic manuscript preparation and complies with the license terms of both the LPPL and MIT licenses.
