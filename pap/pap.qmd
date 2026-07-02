@@ -11,8 +11,20 @@ format:
       text: |
         \usepackage{lipsum}
         \usepackage{setspace}
-        \setstretch{1.5}
         \usepackage{etoolbox}
+        % Set body text to 12pt (overrides sn-jnl.cls hardcoded 10pt normalsize)
+        \makeatletter
+        \renewcommand\normalsize{%
+          \@setfontsize\normalsize{12bp}{14.4bp}%
+          \abovedisplayskip 12\p@ \@plus2\p@ \@minus1\p@
+          \abovedisplayshortskip \z@ \@plus3\p@
+          \belowdisplayshortskip 3\p@ \@plus3\p@ \@minus3\p@
+          \belowdisplayskip \abovedisplayskip
+          \let\@listi\@listI}
+        \makeatother
+        \normalsize
+        % Double spacing for all body text
+        \setstretch{2}
         % Remove page numbering from the title page
         \patchcmd{\maketitle}{\thispagestyle{plain}}{\thispagestyle{empty}}{}{}
         % Remove page numbering globally
